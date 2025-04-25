@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">课程表</string>
+    <string name="course_table">课表</string>
+    <string name="daily_schedule">日程</string>
+    <string name="import_course">导入</string>
+    <string name="settings">设置</string>
+    
+    <!-- 课表相关 -->
+    <string name="week_format">第%d周</string>
+    <string name="today">今日</string>
+    <string name="add_course">添加课程</string>
+    <string name="edit_course">编辑课程</string>
+    <string name="delete_course">删除课程</string>
+    <string name="course_name">课程名称</string>
+    <string name="classroom">教室位置</string>
+    <string name="teacher">教师姓名</string>
+    <string name="course_week">课程周次</string>
+    <string name="day_of_week">星期</string>
+    <string name="start_section">开始节次</string>
+    <string name="end_section">结束节次</string>
+    <string name="course_color">课程颜色</string>
+    <string name="note">备注信息</string>
+    <string name="reminder">上课提醒</string>
+    <string name="reminder_time">提前%d分钟提醒</string>
+    <string name="auto_silent">上课自动静音</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="delete">删除</string>
+    <string name="confirm">确定</string>
+    
+    <!-- 日期相关 -->
+    <string name="monday">周一</string>
+    <string name="tuesday">周二</string>
+    <string name="wednesday">周三</string>
+    <string name="thursday">周四</string>
+    <string name="friday">周五</string>
+    <string name="saturday">周六</string>
+    <string name="sunday">周日</string>
+    
+    <!-- 导入相关 -->
+    <string name="import_from_education_system">从教务系统导入</string>
+    <string name="import_from_file">从文件导入</string>
+    <string name="import_from_qr_code">扫码导入</string>
+    <string name="import_preview">导入预览</string>
+    <string name="import_confirm">确认导入</string>
+    
+    <!-- 设置相关 -->
+    <string name="appearance">外观设置</string>
+    <string name="time_table_settings">时间表管理</string>
+    <string name="reminder_settings">提醒设置</string>
+    <string name="backup_restore">备份与恢复</string>
+    <string name="about">关于</string>
+    <string name="theme">主题</string>
+    <string name="background">背景</string>
+    <string name="add_time_table">添加时间表</string>
+    <string name="edit_time_table">编辑时间表</string>
+    <string name="set_default">设为默认</string>
+    <string name="backup">备份</string>
+    <string name="restore">恢复</string>
+    <string name="version">版本</string>
+    
+    <!-- 错误提示 -->
+    <string name="error_course_name_empty">课程名称不能为空</string>
+    <string name="error_week_empty">请至少选择一个周次</string>
+    <string name="error_section_invalid">结束节次必须大于等于开始节次</string>
+    <string name="error_import_failed">导入失败</string>
+    <string name="error_backup_failed">备份失败</string>
+    <string name="error_restore_failed">恢复失败</string>
+    
+    <!-- 成功提示 -->
+    <string name="success_import">导入成功</string>
+    <string name="success_backup">备份成功</string>
+    <string name="success_restore">恢复成功</string>
+    
+    <!-- 确认对话框 -->
+    <string name="confirm_delete_course">确定要删除这门课程吗？</string>
+    <string name="confirm_delete_time_table">确定要删除这个时间表吗？</string>
+    <string name="confirm_delete_course_table">确定要删除这个课表吗？</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_schedule">
+
+    <fragment
+        android:id="@+id/navigation_schedule"
+        android:name="com.example.time.ui.schedule.ScheduleFragment"
+        android:label="@string/course_table"
+        tools:layout="@layout/fragment_schedule" />
+
+    <fragment
+        android:id="@+id/navigation_daily"
+        android:name="com.example.time.ui.daily.DailyFragment"
+        android:label="@string/daily_schedule"
+        tools:layout="@layout/fragment_daily" />
+
+    <fragment
+        android:id="@+id/navigation_import"
+        android:name="com.example.time.ui.import_course.ImportFragment"
+        android:label="@string/import_course"
+        tools:layout="@layout/fragment_import" />
+
+    <fragment
+        android:id="@+id/navigation_settings"
+        android:name="com.example.time.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation> 
